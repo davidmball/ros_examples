@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <package>
-  <name>topics</name>
+  <name>intro_publisher</name>
   <version>0.1.1</version>
-  <description>Examples for working with tutorials.</description>
+  <description>Introduction to publishing on a topic.</description>
   <maintainer email="davidmichaelball@gmail.com">David Ball</maintainer>
-  <license>TBD</license>
+  <license>BSD</license>
 
   <author>David Ball</author>
 
@@ -19,4 +19,6 @@
   <run_depend>roscpp</run_depend>
   <run_depend>rostime</run_depend>
   <run_depend>std_msgs</run_depend>
+
 </package>
+
