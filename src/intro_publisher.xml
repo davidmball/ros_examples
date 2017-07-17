@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<example>
-  <run_cmd>rosrun intro_publisher chatter</run_cmd>
-  <description>This example demonstrates how to publish a message to a topic.</description>
-  <start_file>/src/chatter.cpp</start_file>
-</example>

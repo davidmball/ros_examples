@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(intro_publisher)
+project(intro_publisher_loop)
 
 find_package(catkin REQUIRED COMPONENTS 
   rostime

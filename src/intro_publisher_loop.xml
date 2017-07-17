@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<example>
+  <title>Loop topic publishing.</title>
+  <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
+  <description>This example demonstrates how to publish a message to a topic in a loop.</description>
+  <start_file>/src/chatter.cpp</start_file>
+  <tag>intro</tag>
+  <tag>publisher</tag>
+  <tag>topic</tag>
+</example>

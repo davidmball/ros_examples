@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<example>
+  <title>Hello World</title>
+  <run_cmd>rosrun hello_world_ros hello_world_ros</run_cmd>
+  <description>This example prints hello world in the ROS way.</description>
+  <start_file>/src/hello_world.cpp</start_file>
+  <tag>intro</tag>
+  <tag>debug</tag>
+</example>
