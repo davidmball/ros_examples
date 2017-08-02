@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<example>
+  <title>Marker publishing.</title>
+  <run_cmd>rosrun intro_marker_publisher marker_publisher</run_cmd>
+  <description>This example demonstrates how to display a marker.</description>
+  <ros_version>kinetic</ros_version>
+  <start_file>/src/marker_publisher.cpp</start_file>
+  <tag>intro</tag>
+  <tag>publisher</tag>
+  <tag>marker</tag>
+  <feedback_top>
+    <tab>viz</tab>
+    <topic>/markers</topic>
+    <frame>/the_frame</frame>
+  </feedback_top>
+  <feedback_bottom>
+    <tab>terminal</tab>
+  </feedback_bottom>
+</example>
