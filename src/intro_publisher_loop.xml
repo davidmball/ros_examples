@@ -2,9 +2,18 @@
 <example>
   <title>Loop topic publishing.</title>
   <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
-  <description>This example demonstrates how to publish a message to a topic in a loop.</description>
+  <description>This example demonstrates how to repeatably publish a message to a topic.</description>
+  <ros_version>kinetic</ros_version>
   <start_file>/src/chatter.cpp</start_file>
   <tag>intro</tag>
   <tag>publisher</tag>
   <tag>topic</tag>
+  <feedback_top>
+    <tab>topics</tab>
+    <topic>/chatter</topic>
+    <msg_type>std_msgs/String</msg_type>
+  </feedback_top>
+  <feedback_bottom>
+    <tab>terminal</tab>
+  </feedback_bottom>
 </example>

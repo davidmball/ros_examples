@@ -1,3 +1,7 @@
+*~
+*.pyc
 build
 devel
+qt-devel
+.catkin_workspace
 /src/CMakeLists.txt

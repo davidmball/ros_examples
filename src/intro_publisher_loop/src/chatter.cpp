@@ -7,9 +7,9 @@
 int main(int argc, char **argv)
 {
   ros::init(argc, argv, "chatter");
-  ros::NodeHandle n;
+  ros::NodeHandle nh;
 
-  ros::Publisher chatter_pub = n.advertise<std_msgs::String>(std::string("chatter"), 1000);
+  ros::Publisher chatter_pub = nh.advertise<std_msgs::String>(std::string("chatter"), 1000);
 
   ros::Rate loop_rate(10);
 

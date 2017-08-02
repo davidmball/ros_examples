@@ -3,7 +3,14 @@
   <title>Hello World</title>
   <run_cmd>rosrun hello_world_ros hello_world_ros</run_cmd>
   <description>This example prints hello world in the ROS way.</description>
+  <ros_version>kinetic</ros_version>
   <start_file>/src/hello_world.cpp</start_file>
   <tag>intro</tag>
   <tag>debug</tag>
+  <feedback_top>
+    <tab>terminal</tab>
+  </feedback_top>
+  <feedback_bottom>
+    <tab>nodes</tab>
+  </feedback_bottom>
 </example>
