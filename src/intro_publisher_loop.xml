@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <example>
-  <title>Loop topic publishing.</title>
+  <title>Loop topic publishing</title>
   <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
   <description>This example demonstrates how to repeatably publish a message to a topic.</description>
   <ros_version>kinetic</ros_version>

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <example>
-  <title>Pose publishing.</title>
+  <title>Pose publishing</title>
   <run_cmd>rosrun pose_publisher_loop pose_loop</run_cmd>
   <description>This example demonstrates how to publish a pose message to a topic.</description>
   <ros_version>kinetic</ros_version>
