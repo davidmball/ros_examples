@@ -4,6 +4,7 @@
   <run_cmd>rosrun intro_marker_publisher marker_publisher</run_cmd>
   <description>This example demonstrates how to display a marker.</description>
   <ros_version>kinetic</ros_version>
+  <time_limit>15</time_limit>
   <start_file>/src/marker_publisher.cpp</start_file>
   <tag>intro</tag>
   <tag>publisher</tag>
