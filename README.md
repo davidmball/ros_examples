@@ -9,10 +9,9 @@ See instructions here: https://github.com/davidmball/online_ros
 
 Pull requests with new examples are very welcome. Please keep the example focussed on one particular aspect of ROS.
 
-Please follow the ROS style guide (http://wiki.ros.org/CppStyleGuide)
-with the following exceptions:
-* Exceptions are allowed.
-* C++11/14 is allowed and encouraged. 
+Please follow the ROS style guide (http://wiki.ros.org/CppStyleGuide and http://wiki.ros.org/PyStyleGuide)
+with the following exception(s):
+* C++11/14 is encouraged. 
 
 The xml file has the following elements
 ```
