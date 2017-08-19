@@ -4,18 +4,22 @@
   <run_cmd>rosrun pose_publisher_loop pose_loop</run_cmd>
   <description>This example demonstrates how to publish a pose message to a topic.</description>
   <ros_version>kinetic</ros_version>
-  <time_limit>15</time_limit>
-  <start_file>/src/pose_loop.cpp</start_file>
   <tag>intro</tag>
   <tag>publisher</tag>
   <tag>topic</tag>
   <tag>pose</tag>
-  <feedback_top>
+  <time_limit>15</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun pose_publisher_loop pose_loop</run_cmd>
+    <start_file>/src/pose_loop.cpp</start_file>
+  </language>
+  <feedback>
     <tab>topics</tab>
     <topic>/robot_pose</topic>
     <msg_type>geometry_msgs/PoseStamped</msg_type>
-  </feedback_top>
-  <feedback_bottom>
+  </feedback>
+  <feedback>
     <tab>terminal</tab>
-  </feedback_bottom>
+  </feedback>
 </example>

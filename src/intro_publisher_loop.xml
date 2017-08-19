@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
 <example>
-  <title>Loop topic publishing</title>
-  <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
+  <title>Loop topic publishing</title>  
   <description>This example demonstrates how to repeatably publish a message to a topic.</description>
   <ros_version>kinetic</ros_version>
-  <time_limit>15</time_limit>
-  <start_file>/src/chatter.cpp</start_file>
   <tag>intro</tag>
   <tag>publisher</tag>
   <tag>topic</tag>
-  <feedback_top>
+  <time_limit>15</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
+    <start_file>/src/chatter.cpp</start_file>
+  </language>
+  <feedback>
     <tab>topics</tab>
     <topic>/chatter</topic>
     <msg_type>std_msgs/String</msg_type>
-  </feedback_top>
-  <feedback_bottom>
+  </feedback>
+  <feedback>
     <tab>terminal</tab>
-  </feedback_bottom>
+  </feedback>
 </example>
