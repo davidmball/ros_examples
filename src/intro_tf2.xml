@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<example>
+  <title>tf2 Broadcaster and Listener</title>
+  <description>We create a simple tf2 broadcaster and listener that talk to each other.</description>
+  <ros_version>kinetic</ros_version>
+  <tag>intro</tag>
+  <tag>tf2</tag>
+  <time_limit>15</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>roslaunch intro_tf2 intro_tf2.launch</run_cmd>
+    <start_file>/src/intro_tf2_listener.cpp</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+</example>
