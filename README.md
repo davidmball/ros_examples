@@ -23,6 +23,7 @@ The xml file has the following elements
   <tag>A number of tags that describe this example. These are shown on the index page listing.</tag>
 
   <language>One of these for each code language that is supported.
+    <name>cpp or py supported at the moment</name>
     <run_cmd>This is the cmd that will be run in the docker container after compilation</run_cmd>
     <start_file>This is the file that is shown by default to the end user on page load</start_file>
   </language>
