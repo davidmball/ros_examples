@@ -5,3 +5,5 @@ devel
 qt-devel
 .catkin_workspace
 /src/CMakeLists.txt
+.catkin_tools
+logs
