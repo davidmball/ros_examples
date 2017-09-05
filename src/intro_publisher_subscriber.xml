@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<example>
+  <title>Intro message passing</title>  
+  <description>This example demonstrates how to send and receive a message using publishers and subscribers.</description>
+  <ros_version>kinetic</ros_version>
+  <tag>intro</tag>
+  <tag>publisher</tag>
+  <tag>subscriber</tag>
+  <tag>topic</tag>
+  <time_limit>20</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>roslaunch intro_publisher_subscriber run.launch</run_cmd>
+    <start_file>/src/subscriber.cpp</start_file>
+  </language>
+  <feedback>
+    <tab>topics</tab>
+    <topic>/chatter</topic>
+    <msg_type>std_msgs/String</msg_type>
+  </feedback>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+</example>
