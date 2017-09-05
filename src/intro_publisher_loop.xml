@@ -6,7 +6,7 @@
   <tag>intro</tag>
   <tag>publisher</tag>
   <tag>topic</tag>
-  <time_limit>15</time_limit>
+  <time_limit>20</time_limit>
   <language>
     <name>cpp</name>
     <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
