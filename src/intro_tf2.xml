@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <example>
   <title>tf2 Broadcaster and Listener</title>
-  <description>We create a simple tf2 broadcaster and listener that talk to each other.</description>
+  <description>Demonstrates how to get a tf2 broadcaster and listener to communicate.</description>
   <ros_version>kinetic</ros_version>
   <tag>intro</tag>
   <tag>tf2</tag>
   <tag>roscpp</tag>
   <tag>rospy</tag>
-  <time_limit>15</time_limit>
+  <time_limit>20</time_limit>
   <language>
     <name>cpp</name>
     <run_cmd>roslaunch intro_tf2 intro_tf2_cpp.launch</run_cmd>
@@ -22,6 +22,6 @@
     <tab>terminal</tab>
   </feedback>
   <feedback>
-    <tab>terminal</tab>
+    <tab>nodes</tab>
   </feedback>
 </example>
