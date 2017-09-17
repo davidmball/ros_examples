@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<example>
+  <title>tf2 Broadcaster and Listener</title>
+  <description>Demonstrates how to get a tf2 broadcaster and listener to communicate.</description>
+  <ros_version>kinetic</ros_version>
+  <tag>intro</tag>
+  <tag>tf2</tag>
+  <tag>roscpp</tag>
+  <tag>rospy</tag>
+  <time_limit>20</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>roslaunch intro_tf2 intro_tf2_cpp.launch</run_cmd>
+    <start_file>/src/intro_tf2_broadcaster.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>roslaunch intro_tf2 intro_tf2_py.launch</run_cmd>
+    <start_file>/src/intro_tf2_broadcaster.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>
