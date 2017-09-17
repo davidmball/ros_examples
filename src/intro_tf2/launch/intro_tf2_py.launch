@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="intro_tf2" type="intro_tf2_broadcaster.py"
+        name="tf2_broadcaster.py" output="screen" />
+  <node pkg="intro_tf2" type="intro_tf2_listener.py"
+        name="tf2_listener" output="screen" />
+</launch>

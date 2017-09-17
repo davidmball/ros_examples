@@ -5,11 +5,18 @@
   <ros_version>kinetic</ros_version>
   <tag>intro</tag>
   <tag>tf2</tag>
+  <tag>roscpp</tag>
+  <tag>rospy</tag>
   <time_limit>15</time_limit>
   <language>
     <name>cpp</name>
-    <run_cmd>roslaunch intro_tf2 intro_tf2.launch</run_cmd>
-    <start_file>/src/intro_tf2_listener.cpp</start_file>
+    <run_cmd>roslaunch intro_tf2 intro_tf2_cpp.launch</run_cmd>
+    <start_file>/src/intro_tf2_broadcaster.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>roslaunch intro_tf2 intro_tf2_py.launch</run_cmd>
+    <start_file>/src/intro_tf2_broadcaster.py</start_file>
   </language>
   <feedback>
     <tab>terminal</tab>
