@@ -1,16 +1,17 @@
 <?xml version="1.0"?>
 <example>
-  <title>Loop topic publishing</title>  
-  <description>This example demonstrates how to repeatably publish a message to a topic.</description>
+  <title>Intro message passing</title>  
+  <description>This example demonstrates how to send and receive a message using publishers and subscribers.</description>
   <ros_version>kinetic</ros_version>
   <tag>intro</tag>
   <tag>publisher</tag>
+  <tag>subscriber</tag>
   <tag>topic</tag>
   <time_limit>20</time_limit>
   <language>
     <name>cpp</name>
-    <run_cmd>rosrun intro_publisher_loop chatter</run_cmd>
-    <start_file>/src/chatter.cpp</start_file>
+    <run_cmd>roslaunch intro_publisher_subscriber run.launch</run_cmd>
+    <start_file>/src/subscriber.cpp</start_file>
   </language>
   <feedback>
     <tab>topics</tab>

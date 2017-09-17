@@ -1,0 +1,4 @@
+<launch>
+  <node name="client" pkg="actionlib_add_ints" type="client" output="screen"/>
+  <node name="server" pkg="actionlib_add_ints" type="server" output="screen"/>
+</launch>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>intro_publisher_subscriber</name>
+  <version>0.1.1</version>
+  <description>Introduction to publishing on a topic.</description>
+  <maintainer email="davidmichaelball@gmail.com">David Ball</maintainer>
+  <license>BSD</license>
+
+  <author>David Ball</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rosconsole</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rostime</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>rosconsole</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rostime</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
+

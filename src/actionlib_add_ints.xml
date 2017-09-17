@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<example>
+  <title>Actionlib: Add two ints</title>
+  <description>This example demonstrates to use actionlib. It starts a server and client. In this example the client requests the server to add two ints.</description>
+  <ros_version>kinetic</ros_version>
+  <tag>intro</tag>
+  <tag>actionlib</tag>
+  <time_limit>45</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>roslaunch actionlib_add_ints actionlib_add_ints.launch</run_cmd>
+    <start_file>/src/add_two_ints_server.cpp</start_file>
+  </language>
+  <feedback>
+    <tab>topics</tab>
+    <topic>/add_two_ints/goal</topic>
+    <msg_type>actionlib_add_ints/TwoIntsActionGoal</msg_type>
+  </feedback>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+</example>
