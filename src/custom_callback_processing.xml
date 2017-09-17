@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<example>
+  <title>custom_callback_processing</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun custom_callback_processing custom_callback_processing</run_cmd>
+    <start_file>/custom_callback_processing.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun custom_callback_processing custom_callback_processing.py</run_cmd>
+    <start_file>/custom_callback_processing.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>

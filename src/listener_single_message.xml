@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<example>
+  <title>listener_single_message</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun listener_single_message listener_single_message</run_cmd>
+    <start_file>/listener_single_message.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun listener_single_message listener_single_message.py</run_cmd>
+    <start_file>/listener_single_message.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>

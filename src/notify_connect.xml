@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<example>
+  <title>notify_connect</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun notify_connect notify_connect</run_cmd>
+    <start_file>/notify_connect.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun notify_connect notify_connect.py</run_cmd>
+    <start_file>/notify_connect.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>

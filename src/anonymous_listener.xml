@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<example>
+  <title>anonymous_listener</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun anonymous_listener anonymous_listener</run_cmd>
+    <start_file>/anonymous_listener.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun anonymous_listener anonymous_listener.py</run_cmd>
+    <start_file>/anonymous_listener.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>

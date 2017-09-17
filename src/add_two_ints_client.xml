@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<example>
+  <title>add_two_ints_client</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun add_two_ints_client add_two_ints_client</run_cmd>
+    <start_file>/add_two_ints_client.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun add_two_ints_client add_two_ints_client.py</run_cmd>
+    <start_file>/add_two_ints_client.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>

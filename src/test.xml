@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<example>
+  <title>test</title>
+  <description>TODO</description>
+  <ros_version>kinetic</ros_version>
+  <tag>TODO</tag>
+  <tag>todo</tag>
+  <time_limit>40</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun test test</run_cmd>
+    <start_file>/src/test.cpp</start_file>
+  </language>
+  <language>
+    <name>py</name>
+    <run_cmd>rosrun test test.py</run_cmd>
+    <start_file>/src/test.py</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>
