@@ -16,8 +16,6 @@ int main(int argc, char **argv)
 
   ros::Subscriber chatter_sub = nh.subscribe(std::string("chatter"), 1000, cbChatter);
 
-  ros::Rate loop_rate(10);
-
   ros::spin();
 
   return EXIT_SUCCESS;
