@@ -4,6 +4,7 @@
   <description>TODO</description>
   <ros_version>kinetic</ros_version>
   <time_limit>40</time_limit>
+  <tag>roscpp_tutorials</tag>
   <language>
     <name>cpp</name>
     <run_cmd>rosrun listener_with_userdata listener_with_userdata</run_cmd>
