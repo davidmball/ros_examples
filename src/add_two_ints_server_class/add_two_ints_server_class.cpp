@@ -28,14 +28,12 @@
 #include "ros/ros.h"
 #include "add_two_ints_server_class/TwoInts.h"
 
-// %Tag(CLASS_DECLARATION)%
 class AddTwo
 {
 public:
   bool add(add_two_ints_server_class::TwoInts::Request& req,
            add_two_ints_server_class::TwoInts::Response& res);
 };
-// %EndTag(CLASS_DECLARATION)%
 
 bool AddTwo::add(add_two_ints_server_class::TwoInts::Request& req,
                  add_two_ints_server_class::TwoInts::Response& res)
@@ -51,10 +49,8 @@ int main(int argc, char **argv)
   ros::init(argc, argv, "add_two_ints_server");
   ros::NodeHandle n;
 
-// %Tag(SERVICE_SERVER)%
   AddTwo a;
   ros::ServiceServer ss = n.advertiseService("add_two_ints", &AddTwo::add, &a);
-// %EndTag(SERVICE_SERVER)%
 
   ros::spin();
 
