@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<example>
+  <title>ROS Tutorials: timers</title>
+  <description>Demonstrates how to setup timers to repeatibly call callbacks.</description>
+  <ros_version>kinetic</ros_version>
+  <time_limit>20</time_limit>
+  <tag>roscpp_tutorials</tag>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun timers timers</run_cmd>
+    <start_file>/timers.cpp</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>
