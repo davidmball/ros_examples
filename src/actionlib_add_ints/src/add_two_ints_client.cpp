@@ -21,7 +21,8 @@ int main(int argc, char ** argv)
   req.a = 42;
   req.b = 8;
 
-  sleep(2);
+  sleep(6); // provide some time for the web client to connect to the topic
+
   if (client.call(req, resp))
   {
     ROS_INFO("Client: Sum = %ld", (int64_t)resp.sum);
