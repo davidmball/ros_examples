@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>image_transport_snippets</name>
+  <version>0.0.0</version>
+  <description>Code snippets for nodes using image_transport</description>
+
+  <maintainer email="st.fuchs.tr@gmail.com">Steffen Fuchs</maintainer>
+  <author email="st.fuchs.tr@gmail.com">Steffen Fuchs</author>
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>image_geometry</depend>
+  <depend>roscpp</depend>
+  <depend>tf2_ros</depend>
+
+</package>

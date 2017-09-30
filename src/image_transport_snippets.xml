@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<example>
+  <title>Image Transport Snippets</title>
+  <description>Collection of snippets for using image transport</description>
+  <ros_version>kinetic</ros_version>
+  <tag>cv_bridge</tag>
+  <tag>image_transport</tag>
+  <tag>image_geometry</tag>
+  <tag>roscpp</tag>
+  <time_limit>2</time_limit>
+  <language>
+    <name>cpp</name>
+    <run_cmd>rosrun image_transport_snippets camera_subscriber_snippet</run_cmd>
+    <start_file>src/camera_subscriber_snippet.cpp</start_file>
+  </language>
+  <feedback>
+    <tab>terminal</tab>
+  </feedback>
+  <feedback>
+    <tab>nodes</tab>
+  </feedback>
+</example>
